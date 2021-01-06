@@ -13,9 +13,9 @@
       <label for="check" class="checkbtn">
         <i class="fas fa-bars"></i>
       </label>
-      <label class="logo">responsive</label>
+      <label class="logo" onclick="homePage()">responsive</label>
         <ul>
-          <li><a class="active" href="pricing.html">PRICING</a></li>
+          <li><a href="pricing.html">PRICING</a></li>
           <li><a href="#">CONTACT</a></li>
         </ul>
     </nav>
@@ -27,4 +27,9 @@
       <div class="bottom_left">©RESPONSIVE</div>
     </footer>
   </body>
+  <script>
+    function homePage() {
+      location.replace("index.html")
+    }
+  </script>
 </html>
