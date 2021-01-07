@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title></title>
+  </head>
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+  <body>
+    <nav>
+      <input type="checkbox" id="check">
+      <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <label class="logo" onclick="homePage()">responsive</label>
+        <ul>
+          <li><a href="pricing.html">PRICING</a></li>
+          <li><a class="active" href="contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <section>
+      <div class="contactForm" style="text-align: center">Contact Form</div>
+
+      <div class="container">
+        <form action="contact.php" method="post">
+          <label for="fullName">Full Name</label>
+          <input type="text" id="fullName" name="fullName" placeholder="Your full name..">
+
+          <label for="eMail">Email address</label>
+          <input type="text" id="eMail" name="eMail" placeholder="Your email address..">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="bottom_left">©RESPONSIVE</div>
+    </footer>
+  </body>
+  <script>
+    function homePage() {
+      location.replace("index.html")
+    }
+  </script>
+</html>
