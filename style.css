@@ -28,7 +28,9 @@ label.logo{
    font-size: 35px;
    line-height: 80px;
    padding: 0 100px;
-   cursor: pointer;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
 }
 
 nav ul{
@@ -73,7 +75,7 @@ a.active,a:hover{
 @media only screen and (max-width: 952px) {
   label.logo{
     font-size: 30px;
-    padding-left: 50px;
+
   }
   nav ul li a{
     font-size: 16px;
@@ -121,7 +123,7 @@ a.active,a:hover{
 @media only screen and (max-width: 400px){
   label.logo{
     font-size: 20px;
-    padding-left: 50px;
+
   }
 
   .bottom_left{
@@ -132,13 +134,9 @@ a.active,a:hover{
 @media only screen and (max-width: 320px){
   label.logo{
     font-size: 17px;
-    padding-left: 50px;
+
   }
-  #responsive_para{
-    font-size: 30px;
-     text-align: none;
-     padding-right: 250px;
-  }
+
 }
 
 #background{
@@ -163,13 +161,9 @@ a.active,a:hover{
  text-align: center;
 }
 
-#responsive_para{
-  font-size: 30px;
-   text-align: center;
-   color: white;
-}
 
 footer{
+  margin-top: 700px;
   padding: 50px;
   background: #232277;
 }
@@ -232,6 +226,10 @@ footer{
 @media only screen and (max-width: 905px) {
   .columns {
     width: 100%;
+  }
+
+  footer{
+    margin-top: 1500px;
   }
 }
 
